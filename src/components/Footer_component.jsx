@@ -12,11 +12,11 @@ function Footer_component() {
         <div className=' text-white flex flex-col gap-5 ' >
             <p>Frequently Asked Questions</p>
             <ul className='text-gray-500'>
-                <li><a href="#">Q: Can I link from my website to a calculator on BMI.com? </a></li>
-                <li><a href="#">Q: How should I send suggestions or report problems? </a></li>
-                <li><a href="#">Q: How can I advertise on BMI.net?</a></li>
-                <li><a href="#">Q: How do I delete my data from BMI.com?</a></li>
-                <li><a href="#">Q: Do you have an API for the calculators? </a></li>
+                <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </a></li>
+                <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </a></li>
+                <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
+                <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
+                <li><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </a></li>
             </ul>
         </div>
 
@@ -35,10 +35,10 @@ function Footer_component() {
          <div className=' text-white flex flex-col gap-5'>
             <p>Sitemap</p>
             <ul className='text-gray-500'>
-                <li>Finance Calculator</li>
-                <li>Salary Calculator</li>
-                <li>Rent Calculator</li>
-                <li>IRA Calculator</li>
+                <li>API</li>
+                <li>API</li>
+                <li>API</li>
+                <li>API</li>
             </ul>
         </div>
 </div>

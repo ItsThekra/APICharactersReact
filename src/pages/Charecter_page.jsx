@@ -12,7 +12,7 @@ function Charecter_page() {
   useEffect(() => {
     axios.get(`https://655127797d203ab6626e943b.mockapi.io/Character_fahad/${id}`)
       .then(response => {
-        setcharacterDetalies(characterDetalies[id])
+        setcharacterDetalies(response.characterDetalies[id])
         console.log(characterDetalies[id])
       })
       .catch(error => {
