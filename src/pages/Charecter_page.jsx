@@ -10,10 +10,10 @@ function Charecter_page() {
 
   //useEffect to get the data as soon as the user enters the site
   useEffect(() => {
-    axios.get(`https://655127797d203ab6626e943b.mockapi.io/Character_fahad`)
+    axios.get(`https://655127797d203ab6626e943b.mockapi.io/Character_fahad/${id}`)
       .then(response => {
-        setcharacterDetalies(characterDetalies[index])
-        console.log(characterDetalies[index])
+        setcharacterDetalies(characterDetalies[id])
+        console.log(characterDetalies[id])
       })
       .catch(error => {
         console.log(error)
